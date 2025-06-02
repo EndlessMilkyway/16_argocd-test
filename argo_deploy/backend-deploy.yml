@@ -15,7 +15,7 @@ spec:
         spec:
             containers:
                 - name: boot-container
-                  image: milkyway08/argo_boot:3
+                  image: milkyway08/argo_boot:8
                   imagePullPolicy: Always
                   ports:
                       - containerPort: 7777
